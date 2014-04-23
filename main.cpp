@@ -185,7 +185,7 @@ void make_move()
             cout<<"32\n";
             move_num=32;
         }
-         else if(binary_search(moves.begin(),moves.end(),31))
+        else if(binary_search(moves.begin(),moves.end(),31))
         {
             cout<<"31\n";
             move_num=31;
@@ -195,43 +195,43 @@ void make_move()
             cout<<"39\n";
             move_num=39;
         }
-         else if(binary_search(moves.begin(),moves.end(),3))
+        else if(binary_search(moves.begin(),moves.end(),3))
         {
             cout<<"3\n";
             move_num=3;
         }
-         else if(binary_search(moves.begin(),moves.end(),4))
+        else if(binary_search(moves.begin(),moves.end(),4))
         {
             cout<<"4\n";
             move_num=4;
         }
-         else if(binary_search(moves.begin(),moves.end(),59))
+        else if(binary_search(moves.begin(),moves.end(),59))
         {
             cout<<"59\n";
             move_num=59;
         }
-         else if(binary_search(moves.begin(),moves.end(),60))
+        else if(binary_search(moves.begin(),moves.end(),60))
         {
             cout<<"60\n";
             move_num=60;
         }
-         else if(binary_search(moves.begin(),moves.end(),61))
+        else if(binary_search(moves.begin(),moves.end(),61))
         {
             cout<<"61\n";
             move_num=61;
         }
-         else if(binary_search(moves.begin(),moves.end(),58))
+        else if(binary_search(moves.begin(),moves.end(),58))
         {
             cout<<"58\n";
             move_num=58;
         }
 
-         else if(binary_search(moves.begin(),moves.end(),2))
+        else if(binary_search(moves.begin(),moves.end(),2))
         {
             cout<<"2\n";
             move_num=2;
         }
-         else if(binary_search(moves.begin(),moves.end(),5))
+        else if(binary_search(moves.begin(),moves.end(),5))
         {
             cout<<"5\n";
             move_num=5;
@@ -241,7 +241,7 @@ void make_move()
             cout<<"23\n";
             move_num=23;
         }
-         else if(binary_search(moves.begin(),moves.end(),47))
+        else if(binary_search(moves.begin(),moves.end(),47))
         {
             cout<<"47\n";
             move_num=47;
@@ -254,7 +254,7 @@ void make_move()
             move_num=40;
         }
 
-         else if(binary_search(moves.begin(),moves.end(),16))
+        else if(binary_search(moves.begin(),moves.end(),16))
         {
             cout<<"16\n";
             move_num=16;
@@ -346,42 +346,42 @@ void make_move()
             move_num=41;
         }
 
-          else if(binary_search(moves.begin(),moves.end(),1))
+        else if(binary_search(moves.begin(),moves.end(),1))
         {
             cout<<"1\n";
             move_num=1;
         }
-          else if(binary_search(moves.begin(),moves.end(),8))
+        else if(binary_search(moves.begin(),moves.end(),8))
         {
             cout<<"8\n";
             move_num=8;
         }
-          else if(binary_search(moves.begin(),moves.end(),48))
+        else if(binary_search(moves.begin(),moves.end(),48))
         {
             cout<<"48\n";
             move_num=48;
         }
-          else if(binary_search(moves.begin(),moves.end(),57))
+        else if(binary_search(moves.begin(),moves.end(),57))
         {
             cout<<"57\n";
             move_num=57;
         }
-          else if(binary_search(moves.begin(),moves.end(),62))
+        else if(binary_search(moves.begin(),moves.end(),62))
         {
             cout<<"62\n";
             move_num=62;
         }
-          else if(binary_search(moves.begin(),moves.end(),55))
+        else if(binary_search(moves.begin(),moves.end(),55))
         {
             cout<<"55\n";
             move_num=55;
         }
-         else if(binary_search(moves.begin(),moves.end(),15))
+        else if(binary_search(moves.begin(),moves.end(),15))
         {
             cout<<"15\n";
             move_num=15;
         }
-          else if(binary_search(moves.begin(),moves.end(),6))
+        else if(binary_search(moves.begin(),moves.end(),6))
         {
             cout<<"6\n";
             move_num=6;
@@ -408,9 +408,9 @@ void get_move()
     cin>>input;
     if(input!=-1)
     {
-    int a= (input-input%8)/8;
-    int b= input%8;
-    move(a,b);
+        int a= (input-input%8)/8;
+        int b= input%8;
+        move(a,b);
     }
 }
 bool game_on()
